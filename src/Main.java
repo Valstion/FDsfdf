@@ -124,6 +124,26 @@ public class Main {
         } else {
             System.out.println("Petras surinko " + petrasScore + " taškų. Partiją laimėjo: Petras");
         }
+        System.out.println("______7777_____________________________________________________");
+        int height = 21;
+        for (int i = 1; i <= height / 2 + 1; i++) {
+            for (int j = 1; j <= height / 2 + 1 - i; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= 2 * i - 1; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for (int i = height / 2; i >= 1; i--) {
+            for (int j = 1; j <= height / 2 + 1 - i; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= 2 * i - 1; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
         System.out.println("______8888_____________________________________________________");
 
         // Vinies ilgis 8.5cm (pilnai sulenda į lentą)
